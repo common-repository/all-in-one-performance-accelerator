@@ -1,0 +1,1247 @@
+@charset "UTF-8";
+/**
+ * The standard colour scheme for Query Monitor.
+ *
+ * @package query-monitor
+ */
+#wpadminbar .quicklinks .menupop ul li.smack-true > a {
+  color: #8c8 !important;
+}
+#wpadminbar .quicklinks .menupop ul li.smack-true > a:focus, #wpadminbar .quicklinks .menupop ul li.smack-true > a:hover {
+  color: #47a747 !important;
+}
+#wpadminbar .smack-alert {
+  background-color: #f60;
+}
+#wpadminbar .smack-alert:hover {
+  background-color: #e65c00;
+}
+#wpadminbar #wp-admin-bar-smack-query-monitor-stricts a,
+#wpadminbar #wp-admin-bar-smack-query-monitor-deprecateds a,
+#wpadminbar #wp-admin-bar-smack-query-monitor-notices a,
+#wpadminbar .smack-strict,
+#wpadminbar .smack-deprecated,
+#wpadminbar .smack-notice {
+  background-color: #740;
+}
+#wpadminbar #wp-admin-bar-smack-query-monitor-expensive a,
+#wpadminbar .smack-expensive {
+  background-color: #b60;
+}
+#wpadminbar #wp-admin-bar-smack-query-monitor-expensive a:hover,
+#wpadminbar .smack-expensive:hover {
+  background-color: #915700;
+}
+#wpadminbar #wp-admin-bar-smack-query-monitor-logger-warning a,
+#wpadminbar #wp-admin-bar-smack-query-monitor-warnings a,
+#wpadminbar #wp-admin-bar-smack-query-monitor-errors a,
+#wpadminbar .smack-error,
+#wpadminbar .smack-warning {
+  background-color: #c00;
+}
+#wpadminbar #wp-admin-bar-smack-query-monitor-logger-warning a:hover,
+#wpadminbar #wp-admin-bar-smack-query-monitor-warnings a:hover,
+#wpadminbar #wp-admin-bar-smack-query-monitor-errors a:hover,
+#wpadminbar .smack-error:hover,
+#wpadminbar .smack-warning:hover {
+  background-color: #b30000;
+}
+#wpadminbar #wp-admin-bar-smack-query-monitor .ab-icon {
+  color: #aaa !important;
+  display: none !important;
+  font: 18px/44px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+  padding: 0 10px !important;
+  width: auto !important;
+}
+@media screen and (max-width: 782px) {
+  #wpadminbar #wp-admin-bar-smack-query-monitor .ab-icon {
+    display: block !important;
+  }
+  #wpadminbar #wp-admin-bar-smack-query-monitor .ab-label {
+    display: none !important;
+  }
+}
+
+#wp-admin-bar-smack-query-monitor *,
+#wp-admin-bar-smack-query-monitor {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+body.admin-color-light #wp-admin-bar-smack-query-monitor:not(.smack-all-clear):not(:hover):not(.hover) .ab-label,
+#wp-admin-bar-smack-query-monitor-default .smack-alert a,
+#wp-admin-bar-smack-query-monitor-default .smack-error a,
+#wp-admin-bar-smack-query-monitor-default .smack-warning a,
+#wp-admin-bar-smack-query-monitor-deprecateds a,
+#wp-admin-bar-smack-query-monitor-stricts a,
+#wp-admin-bar-smack-query-monitor-notices a,
+#wp-admin-bar-smack-query-monitor-expensive a,
+#wp-admin-bar-smack-query-monitor-logger-warning a,
+#wp-admin-bar-smack-query-monitor-warnings a,
+#wp-admin-bar-smack-query-monitor-errors a {
+  color: #eee !important;
+}
+
+#wp-admin-bar-smack-query-monitor small {
+  font-size: 11px !important;
+}
+
+#wp-admin-bar-smack-query-monitor.hover a small,
+#wp-admin-bar-smack-query-monitor.hover a .ab-label {
+  text-shadow: none !important;
+}
+
+#wp-admin-bar-smack-query-monitor-placeholder,
+#wp-admin-bar-smack-query-monitor-default {
+  display: none;
+}
+
+#query-view dl,
+#query-view dt,
+#query-view dd,
+#query-view button,
+#query-view caption,
+/* #query-view label, */
+#query-view select,
+/* #query-view table, */
+#query-view td,
+/* #query-view th, */
+#query-view ul,
+#query-view ol,
+#query-view li,
+/* #query-view code, */
+#query-view pre,
+#query-view a,
+#query-view h1,
+#query-view h2,
+#query-view h3,
+#query-view h4,
+#query-view h5,
+#query-view h6,
+#query-view section,
+#query-view nav,
+#query-view p {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+  clear: both !important;
+  color: #444 !important;
+  float: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+  font-size: 12px !important;
+  -webkit-font-smoothing: auto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  letter-spacing: -0.1px !important;
+  line-height: 18px !important;
+  margin: 0 !important;
+  min-height: auto !important;
+  outline: none !important;
+  padding: 0 !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  text-indent: 0 !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  transition: none !important;
+  vertical-align: baseline !important;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  /* width: auto !important; */
+}
+
+
+#query-view dl::before, #query-view dl::after,
+#query-view dt::before,
+#query-view dt::after,
+#query-view dd::before,
+#query-view dd::after,
+#query-view button::before,
+#query-view button::after,
+#query-view caption::before,
+#query-view caption::after,
+#query-view label::before,
+#query-view label::after,
+#query-view select::before,
+#query-view select::after,
+#query-view table::before,
+#query-view table::after,
+#query-view td::before,
+#query-view td::after,
+#query-view th::before,
+#query-view th::after,
+#query-view ul::before,
+#query-view ul::after,
+#query-view ol::before,
+#query-view ol::after,
+#query-view li::before,
+#query-view li::after,
+#query-view code::before,
+#query-view code::after,
+#query-view pre::before,
+#query-view pre::after,
+#query-view a::before,
+#query-view a::after,
+#query-view h1::before,
+#query-view h1::after,
+#query-view h2::before,
+#query-view h2::after,
+#query-view h3::before,
+#query-view h3::after,
+#query-view h4::before,
+#query-view h4::after,
+#query-view h5::before,
+#query-view h5::after,
+#query-view h6::before,
+#query-view h6::after,
+#query-view section::before,
+#query-view section::after,
+#query-view nav::before,
+#query-view nav::after,
+#query-view p::before,
+#query-view p::after {
+  display: none !important;
+}
+#query-view {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+  clear: both !important;
+  color: gray !important;
+  float: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+  font-size: 14px !important;
+  -webkit-font-smoothing: auto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  letter-spacing: -0.1px !important;
+  line-height: 18px !important;
+  margin: 0 !important;
+  min-height: auto !important;
+  outline: none !important;
+  padding: 0 !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  text-indent: 0 !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  transition: none !important;
+  vertical-align: baseline !important;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  background: #fff !important;
+  border-top: 1px solid #aaa !important;
+  bottom: 0 !important;
+  direction: ltr !important;
+  display: none;
+  left: 0 !important;
+  margin: 0 !important;
+  position: fixed;
+  right: 0 !important;
+  text-align: left !important;
+  z-index: 99998 !important;
+}
+#query-view::before, #query-view::after {
+  display: none !important;
+}
+#query-view ::selection {
+  background-color: #B9D6FB !important;
+  color: #444 !important;
+}
+#query-view strong,
+#query-view b {
+  font-weight: bold !important;
+}
+#query-view em,
+#query-view i {
+  font-style: italic !important;
+}
+#query-view.smack-show, #query-view.smack-peek {
+  display: flex;
+  flex-direction: column !important;
+  height: 27px;
+}
+#query-view.smack-show {
+  height: 40%;
+  width: 40%;
+}
+#query-view:not(.smack-show-right) {
+  width: 100% !important;
+}
+#query-view.smack-show-right {
+  height: calc( 100vh - 32px ) !important;
+  top: 32px !important;
+  left: unset !important;
+  border-top: 0 !important;
+  border-left: 1px solid #aaa !important;
+}
+#query-view.smack-show-right #smack-panel-menu,
+#query-view.smack-show-right #smack-title h1.smack-title-heading {
+  display: none;
+}
+#query-view.smack-show-right #smack-title div.smack-title-heading {
+  display: block;
+}
+#query-view.smack-show-right #smack-title {
+  cursor: default !important;
+}
+#query-view.smack-show-right #smack-side-resizer {
+  background: transparent !important;
+  cursor: ew-resize !important;
+  display: block !important;
+  height: 100% !important;
+  position: absolute !important;
+  left: -2px !important;
+  top: 0 !important;
+  width: 4px !important;
+  z-index: 2 !important;
+}
+#query-view.smack-show-right.smack-peek {
+  height: 100vh !important;
+  top: 0 !important;
+}
+#query-view #smack-wrapper {
+  display: flex;
+  flex-grow: 1 !important;
+  /* Fix nested scrolling in Firefox. See https://bugzilla.mozilla.org/show_bug.cgi?id=1043520: */
+  min-height: 0;
+}
+#query-view #smack-title {
+  align-items: center !important;
+  background: #f3f3f3 !important;
+  border-bottom: 1px solid #aaa !important;
+  cursor: ns-resize !important;
+  display: flex !important;
+  flex-shrink: 0 !important;
+  height: 27px !important;
+  padding: 0 0 0 10px !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+#query-view #smack-title .smack-title-heading {
+  border-right: 1px solid #bbb !important;
+  flex-grow: 1 !important;
+  margin-right: 6px !important;
+}
+#query-view #smack-title div.smack-title-heading {
+  display: none;
+}
+#query-view #smack-title .smack-title-button {
+  flex-shrink: 0 !important;
+}
+#query-view #smack-title .dashicons {
+  transition: none !important;
+  height: 20px !important;
+  width: 20px !important;
+}
+#query-view #smack-title .smack-button-container-close {
+  margin-right: 10px !important;
+}
+#query-view #smack-title .smack-button-container-close .dashicons {
+  font-size: 20px !important;
+  margin: 3px 0 3px !important;
+}
+@media screen and (max-width: 960px) {
+  #query-view #smack-title .smack-button-container-position {
+    display: none !important;
+  }
+}
+#query-view #smack-title button {
+  background: transparent !important;
+  color: #666 !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  margin: 0 0 0 0px !important;
+  min-width: auto !important;
+  padding: 0px 4px !important;
+}
+#query-view #smack-title button:focus *,
+#query-view #smack-title button:hover *,
+#query-view #smack-title button:focus,
+#query-view #smack-title button:hover {
+  background: #e6e6e6 !important;
+  color: #000 !important;
+}
+#query-view #smack-title button:active *,
+#query-view #smack-title button:active {
+  background: #ccc !important;
+}
+#query-view #smack-title button.smack-button-active {
+  color: #3879d9 !important;
+}
+#query-view #smack-title .smack-button-container-settings .dashicons {
+  font-size: 17px !important;
+  margin: 4px 0 2px !important;
+}
+#query-view #smack-title .smack-button-container-position .dashicons {
+  font-size: 15px !important;
+  margin: 2px -1px 3px 4px !important;
+  transform: scaleX(-1) rotate(90deg) !important;
+}
+#query-view.smack-show-right #smack-title .smack-button-container-position .dashicons {
+  margin: 4px 1px 0px 1px !important;
+  transform: none !important;
+}
+
+#query-view #smack-panel-menu {
+  background: #ececec !important;
+  flex-shrink: 0 !important;
+  overflow-y: scroll !important;
+  overscroll-behavior: contain !important;
+  height: auto !important;
+}
+#query-view #smack-panel-menu ul {
+  display: block !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
+#query-view #smack-panel-menu li {
+  display: list-item !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto !important;
+}
+#query-view #smack-panel-menu li ul {
+  display: none !important;
+}
+#query-view #smack-panel-menu li button {
+  background: #f3f3f3 !important;
+  border-bottom: 1px solid #ddd !important;
+  border-right: 1px solid #aaa !important;
+  color: #444 !important;
+  cursor: pointer !important;
+  display: block !important;
+  padding: 6px 32px 6px 10px !important;
+  position: relative !important;
+  text-decoration: none !important;
+  width: 100% !important;
+}
+#query-view #smack-panel-menu li button:focus,
+#query-view #smack-panel-menu li button:hover {
+  background: #cde !important;
+  color: #444 !important;
+}
+#query-view #smack-panel-menu li button:focus {
+  text-decoration: underline !important;
+}
+#query-view #smack-panel-menu li button:active {
+  text-decoration: none !important;
+  background: #0073aa !important;
+  color: #fff !important;
+  text-shadow: 0 -1px 1px #006291, 1px 0 1px #006291, 0 1px 1px #006291, -1px 0 1px #006291 !important;
+}
+#query-view #smack-panel-menu li.smack-current-menu ul {
+  display: block !important;
+}
+#query-view #smack-panel-menu li.smack-current-menu button {
+  background: #def !important;
+  color: #444 !important;
+}
+#query-view #smack-panel-menu li.smack-current-menu button:focus {
+  background: #f7fbff !important;
+  color: #444 !important;
+}
+#query-view #smack-panel-menu li.smack-current-menu button:hover {
+  background: #cde !important;
+  color: #444 !important;
+}
+#query-view #smack-panel-menu li li button::before {
+  content: "└" !important;
+  display: inline-block !important;
+  margin-right: 5px !important;
+}
+#query-view #smack-panel-menu li button[aria-selected=true] {
+  background: #0073aa !important;
+  color: #fff !important;
+  text-shadow: 0 -1px 1px #006291, 1px 0 1px #006291, 0 1px 1px #006291, -1px 0 1px #006291 !important;
+}
+#query-view #smack-panel-menu li button[aria-selected=true]:focus {
+  background: #0084c4 !important;
+  color: #fff !important;
+}
+#query-view #smack-panel-menu li button[aria-selected=true]:hover {
+  background: #0073aa !important;
+  color: #fff !important;
+}
+#query-view #smack-panel-menu li button[aria-selected=true]:after {
+  border: solid 8px transparent;
+  border-right-color: #fff;
+  content: " ";
+  display: inline-block !important;
+  height: 0;
+  margin-top: -8px;
+  pointer-events: none;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  width: 0;
+}
+#query-view #smack-panels {
+  flex-grow: 1 !important;
+  overflow-y: scroll !important;
+  overscroll-behavior: contain !important;
+}
+#query-view .smack.smack-panel-show {
+  display: block !important;
+}
+#query-view .smack:focus {
+  outline: 0 !important;
+  /* @TODO might not need this any more */
+}
+#query-view .smack-boxed {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+#query-view .smack-boxed:not(#smack-broken) + .smack-boxed {
+  border-top: 1px solid #ddd !important;
+  padding-top: 10px !important;
+}
+#query-view .smack-boxed-wrap {
+  flex-wrap: wrap !important;
+}
+#query-view .smack .smack-none {
+  margin: 2em !important;
+}
+#query-view .smack .smack-none p {
+  font-style: italic !important;
+  text-align: center !important;
+}
+#query-view .smack table {
+  border: none !important;
+  border-collapse: collapse !important;
+  box-shadow: 0px 1px 0px 0px #aaa !important;
+  color: #444 !important;
+  margin: 0 !important;
+  table-layout: auto !important;
+  width: 100% !important;
+}
+#query-view .smack table + table {
+  border-top: 1px solid #e0e0e0 !important;
+  margin-top: 5px !important;
+}
+#query-view .smack tr {
+  border: none !important;
+}
+#query-view .smack tbody th,
+#query-view .smack tbody td,
+#query-view .smack tfoot th,
+#query-view .smack tfoot td {
+  border: 1px solid #e0e0e0 !important;
+  padding: 5px 5px 4px 5px !important;
+  vertical-align: top !important;
+}
+#query-view .smack tbody th,
+#query-view .smack tbody td {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+#query-view .smack thead th {
+  background: #fff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-top: none !important;
+  box-shadow: 0px 1px 0px #e0e0e0 !important;
+  padding: 5px !important;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+#query-view .smack thead th,
+#query-view .smack thead td {
+  vertical-align: top !important;
+}
+#query-view .smack thead .smack-th {
+  display: flex !important;
+}
+#query-view .smack tfoot tr td,
+#query-view .smack tfoot tr th {
+  background: #f3f3f3 !important;
+  border: none !important;
+  bottom: 0 !important;
+  box-shadow: inset 0px 1px 0px #e0e0e0 !important;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+#query-view .smack th:first-child,
+#query-view .smack td:first-child {
+  border-left: none !important;
+}
+#query-view .smack th:last-child,
+#query-view .smack td:last-child {
+  border-right: none !important;
+}
+#query-view .smack tfoot td.smack-num,
+#query-view .smack tfoot th.smack-num,
+#query-view .smack thead td.smack-num,
+#query-view .smack thead th.smack-num {
+  width: 5.5em !important;
+}
+#query-view .smack th.smack-num,
+#query-view .smack td.smack-num {
+  text-align: right !important;
+}
+#query-view .smack td.smack-num {
+  font-family: Menlo, Monaco, Consolas, monospace !important;
+  font-size: 11px !important;
+  line-height: 19px !important;
+}
+#query-view .smack td.smack-row-sql {
+  min-width: 25em !important;
+}
+#query-view .smack td.smack-row-block-attrs,
+#query-view .smack td.smack-row-block-context,
+#query-view .smack td.smack-row-block-html {
+  max-width: 40em !important;
+}
+#query-view .smack td.smack-row-block-attrs,
+#query-view .smack td.smack-row-block-context,
+#query-view .smack td.smack-row-block-html,
+#query-view .smack tr.smack-warn td.smack-col-status,
+#query-view .smack td.smack-url,
+#query-view .smack th.smack-col-message,
+#query-view .smack td.smack-row-component {
+  min-width: 15em !important;
+}
+#query-view .smack td.smack-has-toggle {
+  padding-right: 24px !important;
+  position: relative !important;
+}
+#query-view .smack td.smack-has-toggle:not(.smack-toggled-on) .smack-supplemental {
+  display: none;
+}
+#query-view .smack .smack-inner-toggle {
+  padding: 4px 6px !important;
+}
+#query-view .smack .smack-has-inner .smack-toggled > table {
+  border-bottom: none !important;
+  border-top: 1px solid #e0e0e0 !important;
+}
+#query-view .smack td.smack-has-inner .smack-toggler,
+#query-view .smack td.smack-has-inner {
+  padding: 0 !important;
+}
+#query-view .smack caption h2 {
+  font-size: 14px !important;
+  margin: 20px !important;
+}
+#query-view .smack-concerns table {
+  border-top: 1px solid #e0e0e0 !important;
+  margin-bottom: 20px !important;
+}
+#query-view .smack-non-tabular {
+  padding: 10px 20px !important;
+}
+#query-view .smack-non-tabular h3 {
+  font-size: 14px !important;
+  margin: 0 0 15px 0 !important;
+}
+#query-view .smack-non-tabular h4 {
+  font-size: 12px !important;
+  margin: 20px 0 10px !important;
+}
+#query-view .smack-non-tabular p {
+  margin-bottom: 10px !important;
+}
+#query-view .smack-non-tabular dl {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  max-width: 60em !important;
+}
+#query-view .smack-non-tabular dt {
+  border-top: 1px solid #ddd !important;
+  flex-grow: 0;
+  flex: 1 0 16em;
+  padding: 10px 10px 10px 0 !important;
+}
+#query-view .smack-non-tabular dd {
+  border-top: 1px solid #ddd !important;
+  flex: 1 0 calc(100% - 10px - 16em);
+  padding: 10px 0 !important;
+}
+#query-view .smack-non-tabular section,
+#query-view .smack-non-tabular .smack-section {
+  margin: 0 0 30px 0 !important;
+}
+#query-view .smack-non-tabular .smack-boxed section,
+#query-view .smack-non-tabular .smack-boxed .smack-section {
+  border-right: 1px solid #ddd !important;
+  margin: 0 20px 10px 0 !important;
+  padding: 10px 20px 10px 0 !important;
+}
+#query-view .smack-non-tabular .smack-boxed section:last-child,
+#query-view .smack-non-tabular .smack-boxed .smack-section:last-child {
+  border-right: none !important;
+  margin-right: 0 !important;
+  padding-right: 20px !important;
+}
+#query-view .smack-non-tabular table {
+  border-bottom-color: #e0e0e0 !important;
+}
+#query-view #smack-conditionals li {
+  display: inline-block !important;
+  margin: 0 20px 5px 0 !important;
+}
+#query-view .smack ol,
+#query-view .smack ul {
+  list-style: none !important;
+}
+#query-view .smack li {
+  display: list-item !important;
+  list-style: none !important;
+}
+#query-view .smack li::before {
+  content: "" !important;
+}
+#query-view .smack code,
+#query-view .smack pre {
+  font-family: Menlo, Monaco, Consolas, monospace !important;
+  font-size: 11px !important;
+  line-height: 19px !important;
+}
+#query-view .smack pre {
+  background: transparent !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+#query-view .smack .smack-true code,
+#query-view .smack p.smack-true,
+#query-view .smack span.smack-true,
+#query-view .smack td.smack-true {
+  color: #282 !important;
+}
+#query-view .smack .smack-false code,
+#query-view .smack span.smack-false,
+#query-view .smack td.smack-false {
+  color: #999 !important;
+}
+#query-view .smack .smack-num,
+#query-view .smack code,
+#query-view .smack .smack-nowrap {
+  white-space: nowrap !important;
+}
+#query-view .smack .smack-wrap code,
+#query-view .smack .smack-wrap {
+  white-space: normal !important;
+  word-break: break-all !important;
+  word-wrap: break-word !important;
+}
+#query-view .smack .smack-pre-wrap code {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+  word-wrap: break-word !important;
+}
+#query-view .smack .smack-sticky {
+  position: sticky !important;
+  top: 36px !important;
+}
+#query-view .smack .smack-current,
+#query-view .smack td.smack-has-toggle p,
+#query-view .smack .smack-nonselectsql code,
+#query-view .smack .smack-nonselectsql {
+  color: #a0a !important;
+}
+#query-view .smack .smack-info {
+  color: #666 !important;
+}
+#query-view .smack .smack-supplemental {
+  margin-left: 0.75em !important;
+  margin-right: 0.75em !important;
+}
+#query-view .smack td.smack-toggled-on .smack-inverse-toggled,
+#query-view .smack td .smack-toggled {
+  display: none;
+}
+#query-view .smack button.smack-button,
+#query-view .smack .smack-toggle {
+  background: #007cba !important;
+  border: 1px solid #007cba !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-weight: normal !important;
+  text-shadow: none !important;
+}
+#query-view .smack .smack-toggle {
+  bottom: auto !important;
+  font-family: Menlo, Monaco, Consolas, monospace !important;
+  height: 18px !important;
+  left: auto !important;
+  line-height: 16px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  right: 5px !important;
+  text-align: center !important;
+  top: 5px !important;
+  user-select: none;
+  width: 18px !important;
+}
+#query-view .smack button {
+  cursor: pointer !important;
+}
+#query-view .smack button.smack-button {
+  padding: 4px 10px !important;
+}
+#query-view .smack .smack-has-inner .smack-toggle {
+  right: 5px !important;
+  top: 5px !important;
+}
+#query-view .smack button.smack-button:hover,
+#query-view .smack .smack-toggle:hover {
+  background: #0072ab !important;
+  border-color: #0072ab !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+#query-view .smack button.smack-button:focus,
+#query-view .smack .smack-toggle:focus {
+  background: #0072ab !important;
+  border-color: #0072ab !important;
+  color: #fff !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #0072ab !important;
+}
+#query-view .smack button.smack-button:active,
+#query-view .smack .smack-toggle:active {
+  background: #00689b !important;
+  border-color: #00689b !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+#query-view .smack tbody tr.smack-odd td,
+#query-view .smack tbody tr.smack-odd th {
+  background: #f9f9f9 !important;
+}
+#query-view .smack-non-tabular .smack-warn,
+#query-view .smack thead tr .smack-warn,
+#query-view .smack tbody tr .smack-warn {
+  background-color: #fff0f0 !important;
+  color: #900 !important;
+}
+#query-view .smack tbody tr th.smack-warn,
+#query-view .smack tbody tr td.smack-warn,
+#query-view .smack tbody tr.smack-warn td,
+#query-view .smack tbody tr.smack-warn th {
+  background-color: #fff0f0 !important;
+  color: #900 !important;
+}
+#query-view .smack tbody tr.smack-odd th.smack-warn,
+#query-view .smack tbody tr.smack-odd td.smack-warn,
+#query-view .smack tbody tr.smack-odd.smack-warn td,
+#query-view .smack tbody tr.smack-odd.smack-warn th {
+  background-color: #ffe8e8 !important;
+}
+#query-view .smack-non-tabular .smack-warn code,
+#query-view .smack tbody .smack-warn li,
+#query-view .smack tbody .smack-warn .smack-info,
+#query-view .smack tbody .smack-warn code {
+  background-color: transparent !important;
+  color: #900 !important;
+}
+#query-view .smack .smack-notice {
+  background: #def !important;
+  border: 1px solid #aad5ff !important;
+  margin: 0 0 10px 0 !important;
+  padding: 10px 20px 0 !important;
+}
+#query-view .smack .dashicons {
+  font-size: 16px !important;
+  height: 16px !important;
+  margin-right: 0.3em !important;
+  transition: none !important;
+  width: 16px !important;
+}
+#query-view .smack .smack-dashicons-yes {
+  background-color: #0a0 !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+#query-view .smack tbody tr td.smack-highlight,
+#query-view .smack tbody tr.smack-highlight th,
+#query-view .smack tbody tr.smack-highlight td {
+  background-color: #ffd !important;
+  color: #444 !important;
+}
+#query-view .smack tbody tr.smack-odd td.smack-highlight,
+#query-view .smack tbody tr.smack-odd.smack-highlight th,
+#query-view .smack tbody tr.smack-odd.smack-highlight td {
+  background-color: #ffffc9 !important;
+  color: #444 !important;
+}
+#query-view .smack tbody tr.smack-odd.smack-hovered th,
+#query-view .smack tbody tr.smack-odd.smack-hovered td,
+#query-view .smack tbody tr.smack-odd:hover th,
+#query-view .smack tbody tr.smack-odd:hover td,
+#query-view .smack tbody tr.smack-hovered th,
+#query-view .smack tbody tr.smack-hovered td,
+#query-view .smack tbody tr:hover th,
+#query-view .smack tbody tr:hover td {
+  background: #eef3fa !important;
+}
+#query-view .smack thead th.smack-filtered select.smack-filter {
+  background-color: #ffd !important;
+  color: #444 !important;
+}
+#query-view .smack button.smack-filter-trigger,
+#query-view .smack button.smack-filter-trigger code,
+#query-view .smack tbody .smack-warn a code,
+#query-view .smack a code,
+#query-view .smack a {
+  color: #0073aa !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+#query-view .smack button.smack-filter-trigger:after, #query-view .smack button.smack-filter-trigger:focus, #query-view .smack button.smack-filter-trigger:hover,
+#query-view .smack button.smack-filter-trigger code:after,
+#query-view .smack button.smack-filter-trigger code:focus,
+#query-view .smack button.smack-filter-trigger code:hover,
+#query-view .smack tbody .smack-warn a code:after,
+#query-view .smack tbody .smack-warn a code:focus,
+#query-view .smack tbody .smack-warn a code:hover,
+#query-view .smack a code:after,
+#query-view .smack a code:focus,
+#query-view .smack a code:hover,
+#query-view .smack a:after,
+#query-view .smack a:focus,
+#query-view .smack a:hover {
+  color: #0096dd !important;
+  text-decoration: underline !important;
+}
+#query-view .smack button.smack-filter-trigger:active,
+#query-view .smack button.smack-filter-trigger code:active,
+#query-view .smack tbody .smack-warn a code:active,
+#query-view .smack a code:active,
+#query-view .smack a:active {
+  color: #11b2ff !important;
+  text-decoration: underline !important;
+}
+#query-view .smack a.smack-external-link:after,
+#query-view .smack a.smack-link:after,
+#query-view .smack a.smack-edit-link:after,
+#query-view .smack button.smack-filter-info:before,
+#query-view .smack button.smack-filter-trigger:after {
+  display: inline-block !important;
+  font-family: dashicons !important;
+  font-size: 14px !important;
+  left: 2px !important;
+  line-height: 13px !important;
+  position: relative !important;
+  text-decoration: none !important;
+  top: 2px !important;
+  visibility: hidden !important;
+}
+#query-view .smack button.smack-filter-info:before {
+  left: unset !important;
+  right: 2px !important;
+  content: "" !important;
+  visibility: visible !important;
+}
+#query-view .smack a.smack-external-link:after,
+#query-view .smack a.smack-link:hover:after,
+#query-view .smack a.smack-link:focus:after,
+#query-view .smack a.smack-edit-link:hover:after,
+#query-view .smack a.smack-edit-link:focus:after,
+#query-view .smack button.smack-filter-trigger:hover:after,
+#query-view .smack button.smack-filter-trigger:focus:after {
+  visibility: visible !important;
+}
+#query-view .smack button.smack-filter-trigger:after {
+  content: "" !important;
+}
+#query-view .smack a.smack-edit-link:after {
+  content: "" !important;
+}
+#query-view .smack a.smack-external-link:after,
+#query-view .smack a.smack-link:after {
+  content: "" !important;
+}
+#query-view #smack-ajax-errors {
+  display: none;
+}
+#query-view button,
+#query-view select {
+  background: none !important;
+  cursor: pointer !important;
+  height: auto !important;
+  margin: 0 !important;
+  width: auto !important;
+}
+#query-view .smack label {
+  color: #444 !important;
+  cursor: pointer !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+}
+#query-view .smack thead label {
+  flex-grow: 1 !important;
+}
+#query-view .smack .smack-filter-container {
+  display: flex !important;
+}
+#query-view .smack .smack-filter-container label {
+  cursor: default !important;
+  white-space: nowrap !important;
+}
+#query-view .smack .smack-filter-container div {
+  /* Some themes use Select2 etc on all selects. This hides that. */
+  display: none !important;
+}
+#query-view .smack-title-heading select,
+#query-view .smack select.smack-filter {
+  -webkit-appearance: menulist !important;
+  -moz-appearance: menulist !important;
+  appearance: menulist !important;
+  background: #fff !important;
+  border: none !important;
+  color: #444 !important;
+  cursor: pointer !important;
+  display: block !important;
+  float: none !important;
+  height: auto !important;
+  letter-spacing: -0.1px !important;
+  margin: 0 0 0 5px !important;
+  max-width: 12em !important;
+  outline: 1px solid #aaa !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+#query-view .smack-title-heading select {
+  max-width: unset !important;
+}
+#query-view .smack select.smack-filter:hover {
+  background: #eef3fa !important;
+}
+#query-view .smack-hide,
+#query-view .smack-hide-scripts-dependencies,
+#query-view .smack-hide-styles-dependencies,
+#query-view .smack-hide-scripts-dependents,
+#query-view .smack-hide-styles-dependents,
+#query-view .smack-hide-scripts-host,
+#query-view .smack-hide-styles-host,
+#query-view .smack-hide-user,
+#query-view .smack-hide-result,
+#query-view .smack-hide-name,
+#query-view .smack-hide-type,
+#query-view .smack-hide-caller,
+#query-view .smack-hide-component {
+  display: none !important;
+}
+#query-view .smack thead th.smack-sortable-column {
+  cursor: pointer !important;
+}
+#query-view .smack thead th.smack-sortable-column:hover {
+  background: #f3f3f3 !important;
+}
+#query-view .smack .smack-sort-heading {
+  flex-grow: 1 !important;
+}
+#query-view .smack .smack-sort-controls {
+  flex-shrink: 0 !important;
+  text-align: right !important;
+}
+#query-view .smack .smack-sortable-column .smack-sort-arrow {
+  color: #ccc !important;
+  display: block !important;
+  font-family: dashicons !important;
+  font-size: 23px !important;
+  height: 10px !important;
+  margin: 0 !important;
+  width: 16px !important;
+}
+#query-view .smack .smack-sortable-column .smack-sort-arrow::before {
+  content: "" !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 4px !important;
+}
+#query-view .smack .smack-sorted-desc .smack-sort-arrow,
+#query-view .smack .smack-sorted-asc .smack-sort-arrow {
+  color: #444 !important;
+}
+#query-view .smack thead th.smack-sortable-column:hover .smack-sort-arrow {
+  color: #0073aa !important;
+}
+#query-view .smack .smack-sortable-column.smack-sorted-asc .smack-sort-arrow::before {
+  content: "" !important;
+}
+#query-view .smack button:focus,
+#query-view .smack a:focus,
+#query-view .smack select:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #0072ab !important;
+}
+#query-view .smack button:active,
+#query-view .smack a:active,
+#query-view .smack select:active {
+  box-shadow: none !important;
+}
+#query-view .smack-screen-reader-text,
+#query-view .screen-reader-text {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+@media screen and (max-width: 782px) {
+  #query-view #smack-panel-menu,
+#query-view #smack-title h1.smack-title-heading {
+    display: none;
+  }
+  #query-view #smack-title div.smack-title-heading {
+    display: block;
+  }
+}
+#query-view [data-smack-state=off] [data-smack-state-visibility=on],
+#query-view [data-smack-state=on] [data-smack-state-visibility=off] {
+  display: none;
+}
+#query-view.smack-no-js .smack-sort-controls, #query-view.smack-no-js .smack-toggle, #query-view.smack-no-js select.smack-filter {
+  display: none !important;
+}
+#query-view .smack.smack-debug-bar textarea,
+#query-view .smack.smack-debug-bar pre {
+  border: 1px solid #ddd !important;
+  margin: 4px 0 !important;
+  padding: 10px !important;
+}
+#query-view .smack.smack-debug-bar textarea {
+  resize: vertical !important;
+}
+#query-view .smack.smack-debug-bar .left {
+  float: left !important;
+}
+#query-view .smack.smack-debug-bar .right {
+  float: right !important;
+}
+#query-view .smack.smack-debug-bar h2 {
+  font-size: 14px !important;
+  margin: 4px 6px 15px !important;
+}
+#query-view .smack.smack-debug-bar h3 {
+  clear: none !important;
+  float: left !important;
+  /* why */
+  font-size: 14px !important;
+  margin: 3px 8px 15px 0 !important;
+  min-width: 150px !important;
+  padding: 5px 10px 15px !important;
+  text-align: center !important;
+}
+#query-view .smack.smack-debug-bar h3 small {
+  font-size: 14px !important;
+}
+#query-view .smack.smack-debug-bar h3 span {
+  display: block !important;
+  margin-bottom: 8px !important;
+  white-space: nowrap !important;
+}
+#query-view .smack.smack-debug-bar h4 {
+  font-size: 13px !important;
+  margin: 15px 6px 5px !important;
+}
+#query-view .smack.smack-debug-bar .smack-debug-bar-output {
+  position: relative !important;
+}
+#query-view .smack.smack-debug-bar .smack-debug-bar-output table {
+  margin-bottom: 4px !important;
+  margin-top: 4px !important;
+}
+#query-view #debug-menu-target-Debug_Bar_Console {
+  min-height: 400px !important;
+}
+#query-view #debug-menu-target-Debug_Bar_Cache_Lookup,
+#query-view #debug-menu-target-Debug_Bar_Rewrite_Rules,
+#query-view #debug-menu-target-Debug_Bar_Widgets {
+  margin: 4px 6px !important;
+}
+#query-view #debug-menu-target-Debug_Bar_Rewrite_Rules_Panel .filterui,
+#query-view #debug-menu-target-Debug_Bar_Rewrite_Rules_Panel .dbrr {
+  margin: 0 !important;
+}
+#query-view #smack-broken {
+  display: none !important;
+}
+#query-view.smack-broken #smack-title {
+  cursor: default !important;
+}
+#query-view.smack-broken #smack-title .smack-title-heading {
+  border-right: none !important;
+}
+#query-view.smack-broken .smack td .smack-toggled, #query-view.smack-broken #smack-broken, #query-view.smack-broken .smack {
+  display: block !important;
+}
+#query-view.smack-broken #smack-panel-menu, #query-view.smack-broken #smack-settings, #query-view.smack-broken #smack-title .smack-title-button {
+  display: none !important;
+}
+#query-view.smack-broken .smack {
+  margin-bottom: 50px !important;
+}
+#query-view.smack-broken .smack button.smack-filter-trigger {
+  color: #444 !important;
+  cursor: text !important;
+}
+#query-view.smack-broken .smack button.smack-filter-trigger:after {
+  display: none !important;
+}
+#query-view.smack-broken .smack button.smack-filter-trigger:focus, #query-view.smack-broken .smack button.smack-filter-trigger:hover, #query-view.smack-broken .smack button.smack-filter-trigger:active {
+  text-decoration: none !important;
+}
+#query-view.smack-broken #smack-broken h2 {
+  padding: 20px !important;
+}
+
+#smack-fatal {
+  margin: 1em !important;
+  border: 2px solid #c00 !important;
+  box-shadow: 0 0 0 2px #fff;
+  background: #fff !important;
+  max-width: 700px !important;
+  clear: both !important;
+  position: absolute !important;
+  z-index: 99999 !important;
+}
+#smack-fatal h2 {
+  font-size: 12px !important;
+  font-weight: normal !important;
+  padding: 5px !important;
+  background: #f3f3f3 !important;
+  margin: 0 !important;
+}
+#smack-fatal .dashicons {
+  color: #c00 !important;
+}
+#smack-fatal ol,
+#smack-fatal p {
+  font-size: 12px !important;
+  padding: 0 !important;
+  margin: 1em !important;
+}
+#smack-fatal ol {
+  padding: 0 0 1em 1em !important;
+}
+#smack-fatal li {
+  margin: 0 0 0.7em !important;
+  list-style: none !important;
+}
+#smack-fatal .smack-info {
+  color: #666 !important;
+}
+
+body#error-page #smack-fatal {
+  margin: 0 !important;
+  border: none !important;
+}

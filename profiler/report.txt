@@ -1,0 +1,277 @@
+Array
+(
+    [scaandata] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [url] => /csv/aug8/?s=csv-pro
+                    [ip] => ::1
+                    [pid] => 18105
+                    [date] => 2023-10-12T14:45:53+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 6.751275062561
+                            [wordpress] => 0.037745237350464
+                            [theme] => 0
+                            [plugins] => 6.4930350780487
+                            [profile] => 0.22524380683899
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.10407757759094
+                                    [pods] => 0.71174883842468
+                                    [meta-box-aio] => 0.00042390823364258
+                                    [redux-framework] => 5.6767847537994
+                                )
+
+                        )
+
+                    [memory] => 98013184
+                    [stacksize] => 64601
+                    [queries] => 500
+                )
+
+            [1] => stdClass Object
+                (
+                    [url] => /csv/aug8/wp-cron.php?doing_wp_cron=1697121961.8218069076538085937500
+                    [ip] => 127.0.0.1
+                    [pid] => 11163
+                    [date] => 2023-10-12T14:46:01+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 0.44985389709473
+                            [wordpress] => 0.0011167526245117
+                            [theme] => 0
+                            [plugins] => 0.34444284439087
+                            [profile] => 0.13927602767944
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.025834321975708
+                                    [pods] => 0.31860852241516
+                                )
+
+                        )
+
+                    [memory] => 30236672
+                    [stacksize] => 36102
+                    [queries] => 172
+                )
+
+            [2] => stdClass Object
+                (
+                    [url] => /csv/aug8/wp-admin/
+                    [ip] => ::1
+                    [pid] => 18105
+                    [date] => 2023-10-12T14:46:17+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 1.0368700027466
+                            [wordpress] => 0.16570949554443
+                            [theme] => 0
+                            [plugins] => 0.73050904273987
+                            [profile] => 0.14720273017883
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.36999034881592
+                                    [pods] => 0.35973286628723
+                                    [wp-optimize-premium] => 0.00078582763671875
+                                )
+
+                        )
+
+                    [memory] => 23293952
+                    [stacksize] => 56439
+                    [queries] => 535
+                )
+
+            [3] => stdClass Object
+                (
+                    [url] => /csv/aug8/wp-admin/edit.php
+                    [ip] => ::1
+                    [pid] => 15296
+                    [date] => 2023-10-12T14:46:19+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 1.2241299152374
+                            [wordpress] => 0.01258659362793
+                            [theme] => 0
+                            [plugins] => 1.014132976532
+                            [profile] => 0.19558382034302
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.32458209991455
+                                    [pods] => 0.68955087661743
+                                )
+
+                        )
+
+                    [memory] => 66306048
+                    [stacksize] => 61642
+                    [queries] => 597
+                )
+
+            [4] => stdClass Object
+                (
+                    [url] => /csv/aug8/wp-admin/plugins.php
+                    [ip] => ::1
+                    [pid] => 15296
+                    [date] => 2023-10-12T14:46:22+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 0.99677109718323
+                            [wordpress] => 0.014566421508789
+                            [theme] => 0
+                            [plugins] => 0.85621762275696
+                            [profile] => 0.13466668128967
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.33577609062195
+                                    [pods] => 0.52044153213501
+                                )
+
+                        )
+
+                    [memory] => 43233280
+                    [stacksize] => 55606
+                    [queries] => 472
+                )
+
+            [5] => stdClass Object
+                (
+                    [url] => /csv/aug8/user-profile
+                    [ip] => ::1
+                    [pid] => 15296
+                    [date] => 2023-10-12T14:46:24+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 7.0350260734558
+                            [wordpress] => 0.03690767288208
+                            [theme] => 0
+                            [plugins] => 6.8167645931244
+                            [profile] => 0.18398427963257
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.071455240249634
+                                    [pods] => 0.95640587806702
+                                    [meta-box-aio] => 0.00057101249694824
+                                    [redux-framework] => 5.7883324623108
+                                )
+
+                        )
+
+                    [memory] => 78589952
+                    [stacksize] => 64305
+                    [queries] => 487
+                )
+
+            [6] => stdClass Object
+                (
+                    [url] => /csv/aug8/comments
+                    [ip] => ::1
+                    [pid] => 15296
+                    [date] => 2023-10-12T14:46:32+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 2.9651050567627
+                            [wordpress] => 0.023536443710327
+                            [theme] => 0
+                            [plugins] => 2.7444760799408
+                            [profile] => 0.19183731079102
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.43690013885498
+                                    [pods] => 0.73063468933105
+                                    [meta-box-aio] => 0.00037074089050293
+                                    [redux-framework] => 1.5765705108643
+                                )
+
+                        )
+
+                    [memory] => 64557056
+                    [stacksize] => 66346
+                    [queries] => 538
+                )
+
+            [7] => stdClass Object
+                (
+                    [url] => /csv/aug8/login
+                    [ip] => ::1
+                    [pid] => 15296
+                    [date] => 2023-10-12T14:46:35+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 0.52649688720703
+                            [wordpress] => 0.0020284652709961
+                            [theme] => 0
+                            [plugins] => 0.39537048339844
+                            [profile] => 0.13116240501404
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.040368556976318
+                                    [pods] => 0.35460090637207
+                                    [meta-box-aio] => 0.00040102005004883
+                                )
+
+                        )
+
+                    [memory] => 18690048
+                    [stacksize] => 37857
+                    [queries] => 155
+                )
+
+            [8] => stdClass Object
+                (
+                    [url] => /csv/aug8/wp-login.php
+                    [ip] => ::1
+                    [pid] => 15296
+                    [date] => 2023-10-12T14:46:36+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 0.62258005142212
+                            [wordpress] => 0.0022652149200439
+                            [theme] => 0
+                            [plugins] => 0.4584321975708
+                            [profile] => 0.16182422637939
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.042525053024292
+                                    [pods] => 0.41590714454651
+                                )
+
+                        )
+
+                    [memory] => 18690048
+                    [stacksize] => 37842
+                    [queries] => 196
+                )
+
+            [9] => stdClass Object
+                (
+                    [url] => /csv/aug8/logout
+                    [ip] => ::1
+                    [pid] => 13617
+                    [date] => 2023-10-12T14:46:37+00:00
+                    [runtime] => stdClass Object
+                        (
+                            [total] => 6.747878074646
+                            [wordpress] => 0.049165010452271
+                            [theme] => 0
+                            [plugins] => 6.5046474933624
+                            [profile] => 0.20926809310913
+                            [breakdown] => stdClass Object
+                                (
+                                    [all-in-one-performance-accelerator] => 0.40959811210632
+                                    [pods] => 0.36423826217651
+                                    [meta-box-aio] => 0.00039076805114746
+                                    [redux-framework] => 5.7304203510284
+                                )
+
+                        )
+
+                    [memory] => 96530432
+                    [stacksize] => 64163
+                    [queries] => 485
+                )
+
+        )
+
+)
